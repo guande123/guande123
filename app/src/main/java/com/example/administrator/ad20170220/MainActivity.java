@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initDogList() {
             mDogList.add(new Dog("dog1",R.mipmap.dog1));
-        mDogList.add(new Dog("dog2222222222222222222222",R.mipmap.dog2));
+        mDogList.add(new Dog("dog222222222222",R.mipmap.dog2));
         mDogList.add(new Dog("dog3",R.mipmap.dog3));
         mDogList.add(new Dog("dog4",R.mipmap.dog4));
         mDogList.add(new Dog("dog5",R.mipmap.dog5));
