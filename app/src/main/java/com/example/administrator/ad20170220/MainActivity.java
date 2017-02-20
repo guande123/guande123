@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initRecyclerView2() {
         mRecyclerView2 = (RecyclerView) findViewById(R.id.recyclerview2);
-        StaggeredGridLayoutManager sglm = new StaggeredGridLayoutManager(4,StaggeredGridLayoutManager.VERTICAL);
+        StaggeredGridLayoutManager sglm = new StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.VERTICAL);
         mRecyclerView2.setLayoutManager(sglm);
         mRecyclerView2.setAdapter(mMyAdapter = new MyAdapter(mDogList));
     }
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         mDogList.add(new Dog("dog3",R.mipmap.dog3));
         mDogList.add(new Dog("dog4",R.mipmap.dog4));
         mDogList.add(new Dog("dog5",R.mipmap.dog5));
-        mDogList.add(new Dog("dog6666666666666666666666666666666",R.mipmap.dog6));
+        mDogList.add(new Dog("dog666666666666666666666",R.mipmap.dog6));
         mDogList.add(new Dog("dog7",R.mipmap.dog7));
         mDogList.add(new Dog("dog8",R.mipmap.dog8));
         mDogList.add(new Dog("dog9",R.mipmap.dog9));
